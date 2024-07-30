@@ -1,3 +1,15 @@
+/* This version of the pia_communicator has an interrupt driven
+ *  keyboard input routene. Avoiding the overhead of polling
+ *  
+ *  Main advantage is it's fast! on video display. Because it
+ *  uses less CPU you can also set shorter delays on terminal 
+ *  software for sending information to the SBC. Typically
+ *  50ms End Of Line and 2ms Character delay
+ *  
+ *  Copyright 2024 D.Cooper, see licence file.
+ *  
+ *  
+ */
 #include <Arduino.h>
 #include <MCP23S17.h>
 #include <SPI.h>
