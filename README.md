@@ -6,11 +6,11 @@ This software is for use with:
 
 https://github.com/tebl/RC6502-Apple-1-Replica
 
-#INSTALL OPTIONS
+# INSTALL OPTIONS
 
 You can install it from the command line, see below, or build and install the source code from Arduino IDE
 
-On Linux (sorry don't do windows, but I guess it's simelar)
+On Linux or Mac OS (sorry don't do windows, but I guess it's simelar). The port may be different on your setup.
 
 avrdude -c arduino -p atmega328p -P /dev/ttyUSB0 -b 115200 -U flash:w:pia_communicator_v3.hex
 
