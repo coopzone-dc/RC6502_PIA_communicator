@@ -8,7 +8,7 @@ https://github.com/tebl/RC6502-Apple-1-Replica
 
 # INSTALL OPTIONS
 
-You can install it from the command line, see below, or build and install the source code from Arduino IDE
+You can install it from the command line, see below, or build and install the source code from Arduino IDE. If you use avrdude then you only need to download the HEX file above.
 
 On Linux or Mac OS (sorry don't do windows, but I guess it's simelar). The port may be different on your setup.
 
