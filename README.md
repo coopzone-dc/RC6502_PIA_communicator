@@ -20,9 +20,7 @@ Reading | ################################################## | 100% 0.00s
 
 avrdude: Device signature = 0x1e950f (probably m328p)
 
-avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
-
-         To disable this feature, specify the -D option.
+avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed. To disable this feature, specify the -D option.
          
 avrdude: erasing chip
 
