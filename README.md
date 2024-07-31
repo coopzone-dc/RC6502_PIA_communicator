@@ -19,25 +19,37 @@ avrdude: AVR device initialized and ready to accept instructions
 Reading | ################################################## | 100% 0.00s
 
 avrdude: Device signature = 0x1e950f (probably m328p)
+
 avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
+
          To disable this feature, specify the -D option.
+         
 avrdude: erasing chip
+
 avrdude: reading input file "pia_communicator_v3.hex"
+
 avrdude: input file pia_communicator_v3.hex auto detected as Intel Hex
+
 avrdude: writing flash (2804 bytes):
 
 Writing | ################################################## | 100% 0.46s
 
 avrdude: 2804 bytes of flash written
+
 avrdude: verifying flash memory against pia_communicator_v3.hex:
+
 avrdude: load data flash data from input file pia_communicator_v3.hex:
+
 avrdude: input file pia_communicator_v3.hex auto detected as Intel Hex
+
 avrdude: input file pia_communicator_v3.hex contains 2804 bytes
+
 avrdude: reading on-chip flash data:
 
 Reading | ################################################## | 100% 0.37s
 
 avrdude: verifying ...
+
 avrdude: 2804 bytes of flash verified
 
 avrdude: safemode: Fuses OK (E:00, H:00, L:00)
