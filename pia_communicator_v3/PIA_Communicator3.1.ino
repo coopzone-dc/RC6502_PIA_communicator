@@ -32,6 +32,8 @@ void setup() {
   attachInterrupt(digitalPinToInterrupt(VIDEO_DA),video_in, RISING);
 
   output_status();
+  digitalWrite(VIDEO_RDA, HIGH);  // clear the RDA signal on the PIA
+  delayMicroseconds(10);
   digitalWrite(VIDEO_RDA, HIGH);
 }
 
@@ -77,7 +79,7 @@ void configure_bridge() {
 }
 
 void output_status() {
-  Serial.println("RC6502 Apple 1 Replica (using interrupts)");
+  Serial.println("RC6502 Apple 1 Replica V3.1 (using interrupts)");
 }
 
 void serial_receive() {
